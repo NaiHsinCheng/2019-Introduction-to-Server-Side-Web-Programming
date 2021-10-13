@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        ❋メニュー<br>
+        チョコレートシューケーキ　６００円<br>
+        ストロベリーシューケー　　８００円<br>
+        グリーンティーシューケー　７００円<br>
+        ガトーショコラ　　　　　　６５０円<br>
+        抹茶シフォン　　　　　　　７５０円<br>
+        チーズケーキ　　　　　　　７００円<br>
+        ホットケーキ　　　　　　　４６０円<br>
+        ＊本メニューの価格表示は全て”税抜き表示”です。<br><br>
+        <form method="post" action="kadai3.php">
+            ❋食べたいもの：<input type="text" name="food"> <br>
+                <p>
+                   &ensp;&ensp;&ensp;&ensp;入力例：<br>
+                   &ensp;&ensp;&ensp;&ensp;１、チーズケーキ１つ：「チーズケーキ」<br>
+                   &ensp;&ensp;&ensp;&ensp;２、チーズケーキ１つ、ホットケーキ１つ：「チーズケーキ,ホットケーキ」<br>
+                   &ensp;&ensp;&ensp;&ensp;３、チーズケーキ２つ、ホットケーキ１つ：「チーズケーキ,チーズケーキ,ホットケーキ」<br>
+                   &ensp;&ensp;&ensp;&ensp; (必ず「,」で分けてください）<br>
+                </p>
+            ❋店内 / テイクアウト：<input type="text" name="place"><br>
+            <input type = "submit" value="注文する">
+        </form>
+    </body>
+</html>
